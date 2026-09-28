@@ -770,6 +770,21 @@ footer {
   font-size:.7rem
 }
 
+.developer-credit {
+  margin-top:8px
+}
+
+.developer-credit a {
+  color:var(--yellow);
+  text-decoration:underline;
+  text-underline-offset:3px
+}
+
+.developer-credit a:focus-visible {
+  outline:2px solid var(--yellow);
+  outline-offset:4px
+}
+
 .reveal {
   opacity:0;
   transform:translateY(22px);
